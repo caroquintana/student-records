@@ -31,7 +31,6 @@ function agregarEstudiante(){
 
 function imprimir(){
 	var contenedor = document.getElementById('contenedorEstudiante');
-	contenedor.appendChild(arregloEstudiante);
 	contenedor.innerHTML += arregloEstudiante;
 }
 

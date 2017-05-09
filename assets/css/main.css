@@ -1,7 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
 
 body {
-  background-color: #F1C40F ;
+	background-color: #F1C40F ;
+	font-family: 'Open Sans', sans-serif;
+	color: #2C3E50;
+	line-height: 37px;
+	margin-top: 100px;
+	padding: 20px;
+
   
 }
 
