@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 46d2f38e9b74e2447a131f424412fbcb3b277bff
 //Añadiendo un título
 var elemento = document.createElement("h2");
 var contenido = document.createTextNode("STUDENT RECORDS");
@@ -7,6 +10,7 @@ elemento.setAttribute("align", "center");
 document.getElementById("titulo").appendChild(elemento);
 
 
+<<<<<<< HEAD
 function Estudiante(nombre, tech, skills, status){
 	this.nombre= nombre;
 	this.tech= tech;
@@ -38,3 +42,5 @@ function imprimir(){
 function actualizacion(){}
 function empleabilidad(){}
 
+=======
+>>>>>>> 46d2f38e9b74e2447a131f424412fbcb3b277bff
