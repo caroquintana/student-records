@@ -1,4 +1,15 @@
+ 
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600%7CArvo:700");
+
 body {
-  background-color: ;
+  background-color: #F1C40F ;
   
+}
+
+#titulo h2 {
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    font-size: 300%;
+    color: #F4F6F6 ;
+    text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 }
