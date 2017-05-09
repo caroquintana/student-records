@@ -1,3 +1,10 @@
+//Añadiendo un título
+var elemento = document.createElement("h2");
+var contenido = document.createTextNode("STUDENT RECORDS");
+elemento.appendChild(contenido);
+elemento.setAttribute("align", "center");
+document.getElementById("titulo").appendChild(elemento);
+
 function Estudiante(nombre, tech, skills, status){
 	this.nombre= nombre;
 	this.tech= tech;
@@ -16,9 +23,6 @@ function agregarEstudiante(){
 }
 
 
-
-
-
 function imprimir(){
 	var contenedor = document.getElementById('contenedorEstudiante');
 	contenedor.innerHTML;
@@ -27,4 +31,7 @@ function imprimir(){
 
 function actualizacion(){}
 function empleabilidad(){}
+
+
+
 
