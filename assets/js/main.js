@@ -5,8 +5,6 @@ var contenido = document.createTextNode("STUDENT RECORDS");
 elemento.appendChild(contenido);
 elemento.setAttribute("align", "center");
 document.getElementById("titulo").appendChild(elemento);
-
-
 function Estudiante(nombre, tech, skills, status){
 
 	this.nombre= nombre;
@@ -25,8 +23,11 @@ function agregarEstudiante(){
 	var porcentajeHSE = prompt("Ingrese Porcentaje Habilidades Socio-Emocionales");
 
 	var imprimir = document.getElementById("printNuevoEstudiante");
-	imprimir.innerHTML = nombre + "<br>Tech Skills: "+ porcentajeTecnico + "%" + "<br> Life Skills: " + porcentajeHSE + "%" + "<br>Status: Active";
-	arregloEstudiante.push(imprimir);
+	imprimir.innerHTML = "<p>" + nombre + "<br>Tech Skills: "+ porcentajeTecnico + "%" + "<br> Life Skills: " + porcentajeHSE + "%" + "<br>Status: Active" + "</p>";
+	
+	arregloEstudiante.push(imprimir.innerHTML);
+
+	imprimir = "";
 }
 
 
