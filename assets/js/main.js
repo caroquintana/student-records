@@ -16,7 +16,6 @@ function Estudiante(nombre, tech, skills, status){
 }
 
 
-
 var arregloEstudiante=[];
 
 function agregarEstudiante(){
@@ -26,7 +25,7 @@ function agregarEstudiante(){
 
 	var imprimir = document.getElementById("printNuevoEstudiante");
 	imprimir.innerHTML = nombre + "<br>Tech Skills: "+ porcentajeTecnico + "%" + "<br> Life Skills: " + porcentajeHSE + "%" + "<br>Status: Active";
-	arregloEstudiante.push(imprimir);
+	arregloEstudiante.push(imprimir.innerHTML);
 }
 
 
