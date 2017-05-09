@@ -4,3 +4,5 @@ var contenido = document.createTextNode("STUDENT RECORDS");
 elemento.appendChild(contenido);
 elemento.setAttribute("align", "center");
 document.getElementById("titulo").appendChild(elemento);
+
+
